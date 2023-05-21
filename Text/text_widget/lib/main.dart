@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Text Widget'),
     );
   }
 }
@@ -37,15 +37,15 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Container(
         width: double.infinity,
-        child: const Text(
-          'Hello World',
-          style: TextStyle(
-            color: Colors.black,
-            fontSize: 22,
-            fontWeight: FontWeight.bold,
-            fontStyle: FontStyle.normal,
-          ),
-          textAlign: TextAlign.left,
+        height: double.infinity,
+        child: Column(
+          children: [
+            Container(
+              width: double.infinity,
+              padding: const EdgeInsets.symmetric( vertical: 5),
+              child: Text('Hello world', textAlign: TextAlign.center,),
+            )
+          ],
         ),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
