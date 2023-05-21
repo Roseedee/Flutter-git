@@ -39,12 +39,63 @@ class _MyHomePageState extends State<MyHomePage> {
         width: double.infinity,
         height: double.infinity,
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
               width: double.infinity,
-              padding: const EdgeInsets.symmetric( vertical: 5),
-              child: Text('Hello world', textAlign: TextAlign.center,),
-            )
+              margin: const EdgeInsets.all(10),
+              child: const Text(
+                'text normal',
+              ),
+            ),
+            Container(
+              width: double.infinity,
+              margin: const EdgeInsets.all(10),
+              child: const Text(
+                'text alignment left',
+                textAlign: TextAlign.left,
+              ),
+            ),
+            Container(
+              width: double.infinity,
+              margin: const EdgeInsets.all(10),
+              child: const Text(
+                'text alignment right',
+                textAlign: TextAlign.right,
+              ),
+            ),
+            Container(
+              width: double.infinity,
+              margin: const EdgeInsets.all(10),
+              child: const Text(
+                'text alignment center',
+                textAlign: TextAlign.center,
+              ),
+            ),
+            Container(
+              width: double.infinity,
+              margin: const EdgeInsets.all(10),
+              child: const Text(
+                'text font size 22 pixel',
+                style: TextStyle(fontSize: 22,),
+              ),
+            ),
+            Container(
+              width: double.infinity,
+              margin: const EdgeInsets.all(10),
+              child: const Text(
+                'text font weight is bold',
+                style: TextStyle(fontWeight: FontWeight.bold,),
+              ),
+            ),
+            Container(
+              width: double.infinity,
+              margin: const EdgeInsets.all(10),
+              child: const Text(
+                'text font style is italic',
+                style: TextStyle(fontStyle: FontStyle.italic,),
+              ),
+            ),
           ],
         ),
       ), // This trailing comma makes auto-formatting nicer for build methods.
