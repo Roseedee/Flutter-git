@@ -1,4 +1,1 @@
 # Text Widget
-
-> Menu
-    -[Text]
