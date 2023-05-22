@@ -35,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Container(
+      body: SizedBox(
         width: double.infinity,
         height: double.infinity,
         child: Column(
@@ -45,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
               width: double.infinity,
               margin: const EdgeInsets.all(10),
               child: const Text(
-                'text normal',
+                'text widget normal',
               ),
             ),
             Container(
@@ -77,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
               margin: const EdgeInsets.all(10),
               child: const Text(
                 'text font size 22 pixel',
-                style: TextStyle(fontSize: 22,),
+                style: TextStyle(fontSize: 22),
               ),
             ),
             Container(
@@ -85,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
               margin: const EdgeInsets.all(10),
               child: const Text(
                 'text font weight is bold',
-                style: TextStyle(fontWeight: FontWeight.bold,),
+                style: TextStyle(fontWeight: FontWeight.bold),
               ),
             ),
             Container(
@@ -93,7 +93,15 @@ class _MyHomePageState extends State<MyHomePage> {
               margin: const EdgeInsets.all(10),
               child: const Text(
                 'text font style is italic',
-                style: TextStyle(fontStyle: FontStyle.italic,),
+                style: TextStyle(fontStyle: FontStyle.italic),
+              ),
+            ),
+            Container(
+              width: double.infinity,
+              margin: const EdgeInsets.all(10),
+              child: const Text(
+                'text color Green',
+                style: TextStyle(color: Colors.green),
               ),
             ),
           ],
