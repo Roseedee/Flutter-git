@@ -18,6 +18,8 @@ data requered : <b>String class</b>
 > <b>Text Style</b> [Code](https://github.com/Roseedee/Flutter-git/blob/4493098b697a2e338879913f45747869183ae4be/Text/text_widget/lib/main.dart#L96) <br>
 'style' property data requered : <b>TextStyle(fontStyle: [FontStyle class [ref](https://api.flutter.dev/flutter/dart-ui/FontStyle.html#:~:text=Constants,%5Bnormal%2C%20italic%5D)]) <br>
 
+ > <b>Text Color</b> [Code](https://github.com/Roseedee/Flutter-git/blob/4493098b697a2e338879913f45747869183ae4be/Text/text_widget/lib/main.dart#L104) <br>
+ 'style' property data requered : <b>TextStyle(color: [Colors, Color [ref](https://api.flutter.dev/flutter/material/Colors-class.html)])</b>
 
 > Image Example <br> 
 ![image](https://github.com/Roseedee/Flutter-git/blob/main/Img/ex_text_widget.png)
