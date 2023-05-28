@@ -40,10 +40,17 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
+              FilledButton(
+                onPressed: () {},
+                child: const Text("Filled Button"),
+              ),
+              FilledButton.icon(
+                onPressed: () {},
+                icon: const Icon(Icons.add),
+                label: const Text("Filled Button has icon"),
+              ),
               ElevatedButton(
-                onPressed: () {
-                  print('Button clicked');
-                },
+                onPressed: () {},
                 child: const Text("Elevated Button"),
               ),
               ElevatedButton.icon(
@@ -52,8 +59,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 icon: const Icon(Icons.add),
               ),
               OutlinedButton(
-                child: const Text("Outlined Button"),
                 onPressed: () {},
+                child: const Text("Outlined Button"),
               ),
               OutlinedButton.icon(
                 onPressed: () {},
@@ -61,17 +68,18 @@ class _MyHomePageState extends State<MyHomePage> {
                 icon: const Icon(Icons.add),
               ),
               IconButton(
-                icon: const Icon(Icons.add),
                 onPressed: () {},
+                icon: const Icon(Icons.add),
               ),
               TextButton(
-                child: const Text("Text Button"),
                 onPressed: () {},
+                child: const Text("Text Button"),
               ),
               TextButton.icon(
-                  onPressed: () {},
-                  icon: const Icon(Icons.add),
-                  label: const Text('Text button has icon'))
+                onPressed: () {},
+                icon: const Icon(Icons.add),
+                label: const Text('Text button has icon'),
+              )
             ],
           ),
         ) // This trailing comma makes auto-formatting nicer for build methods.
