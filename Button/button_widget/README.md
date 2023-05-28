@@ -1,16 +1,21 @@
-# button_widget
+# Button Widget
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> ### Button Type
+>  * FilledButton [code](https://github.com/Roseedee/Flutter-git/blob/1890a85bd1a5b3d0f3c746351bf3fe63f3574279/Button/button_widget/lib/main.dart#L43-L46)<br>
+>  ![image](https://github.com/Roseedee/Flutter-git/blob/main/Img/ex_button_widget/filledbutton.png)
+>  * FilledButton.icon [code](https://github.com/Roseedee/Flutter-git/blob/1890a85bd1a5b3d0f3c746351bf3fe63f3574279/Button/button_widget/lib/main.dart#L47C2-L51)<br>
+>  ![image](https://github.com/Roseedee/Flutter-git/blob/main/Img/ex_button_widget/filledbutton-icon.png)
+>  * ElevatedButton [code](https://github.com/Roseedee/Flutter-git/blob/1890a85bd1a5b3d0f3c746351bf3fe63f3574279/Button/button_widget/lib/main.dart#L52-L55)<br>
+>  ![image](https://github.com/Roseedee/Flutter-git/blob/main/Img/ex_button_widget/elevatedbutton.png)
+>  * ElevatedButton.icon [code](https://github.com/Roseedee/Flutter-git/blob/1890a85bd1a5b3d0f3c746351bf3fe63f3574279/Button/button_widget/lib/main.dart#L56-L60)<br>
+>  ![image](https://github.com/Roseedee/Flutter-git/blob/main/Img/ex_button_widget/elevatedbutton-icon.png)
+>  * OutLinedButton [code](https://github.com/Roseedee/Flutter-git/blob/1890a85bd1a5b3d0f3c746351bf3fe63f3574279/Button/button_widget/lib/main.dart#L61-L64)<br>
+>  ![image](https://github.com/Roseedee/Flutter-git/blob/main/Img/ex_button_widget/outlinedbutton.png)
+>  * OutlinedButton.icon [code](https://github.com/Roseedee/Flutter-git/blob/1890a85bd1a5b3d0f3c746351bf3fe63f3574279/Button/button_widget/lib/main.dart#L65-L69)<br>
+>  ![image](https://github.com/Roseedee/Flutter-git/blob/main/Img/ex_button_widget/outlinedbutton-icon.png)
+>  * IconButton [code](https://github.com/Roseedee/Flutter-git/blob/1890a85bd1a5b3d0f3c746351bf3fe63f3574279/Button/button_widget/lib/main.dart#L70-L73)<br>
+>  ![image](https://github.com/Roseedee/Flutter-git/blob/main/Img/ex_button_widget/iconbutton.png)
+>  * TextButton [code](https://github.com/Roseedee/Flutter-git/blob/1890a85bd1a5b3d0f3c746351bf3fe63f3574279/Button/button_widget/lib/main.dart#L74-L77) <br>
+>  ![image](https://github.com/Roseedee/Flutter-git/blob/main/Img/ex_button_widget/textbutton.png)
+>  * TextButton.icon [code](https://github.com/Roseedee/Flutter-git/blob/1890a85bd1a5b3d0f3c746351bf3fe63f3574279/Button/button_widget/lib/main.dart#L78-L82)<br>
+>  ![image](https://github.com/Roseedee/Flutter-git/blob/main/Img/ex_button_widget/textbutton-icon.png)

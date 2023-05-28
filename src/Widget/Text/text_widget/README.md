@@ -22,4 +22,4 @@ data requered : <b>String class</b>
  'style' property data requered : <b>TextStyle(color: [Colors, Color [ref](https://api.flutter.dev/flutter/material/Colors-class.html)])</b>
 
 > Image Example <br> 
-![image](https://github.com/Roseedee/Flutter-git/blob/main/Img/ex_text_widget.png)
+![image](https://github.com/Roseedee/Flutter-git/blob/main/Img/ex_text_widget/ex_text_widget.png)
