@@ -31,58 +31,58 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text(widget.title),
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      body: SizedBox(
+        width: double.infinity,
+        height: double.infinity,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            FilledButton(
+              onPressed: () {},
+              child: const Text("Filled Button"),
+            ),
+            FilledButton.icon(
+              onPressed: () {},
+              icon: const Icon(Icons.add),
+              label: const Text("Filled Button has icon"),
+            ),
+            ElevatedButton(
+              onPressed: () {},
+              child: const Text("Elevated Button"),
+            ),
+            ElevatedButton.icon(
+              onPressed: () {},
+              label: const Text("Elevated button has icon"),
+              icon: const Icon(Icons.add),
+            ),
+            OutlinedButton(
+              onPressed: () {},
+              child: const Text("Outlined Button"),
+            ),
+            OutlinedButton.icon(
+              onPressed: () {},
+              label: const Text("Outlined button has icon"),
+              icon: const Icon(Icons.add),
+            ),
+            IconButton(
+              onPressed: () {},
+              icon: const Icon(Icons.add),
+            ),
+            TextButton(
+              onPressed: () {},
+              child: const Text("Text Button"),
+            ),
+            TextButton.icon(
+              onPressed: () {},
+              icon: const Icon(Icons.add),
+              label: const Text('Text button has icon'),
+            ),
+          ],
         ),
-        body: SizedBox(
-          width: double.infinity,
-          height: double.infinity,
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: [
-              FilledButton(
-                onPressed: () {},
-                child: const Text("Filled Button"),
-              ),
-              FilledButton.icon(
-                onPressed: () {},
-                icon: const Icon(Icons.add),
-                label: const Text("Filled Button has icon"),
-              ),
-              ElevatedButton(
-                onPressed: () {},
-                child: const Text("Elevated Button"),
-              ),
-              ElevatedButton.icon(
-                onPressed: () {},
-                label: const Text("Elevated button has icon"),
-                icon: const Icon(Icons.add),
-              ),
-              OutlinedButton(
-                onPressed: () {},
-                child: const Text("Outlined Button"),
-              ),
-              OutlinedButton.icon(
-                onPressed: () {},
-                label: const Text("Outlined button has icon"),
-                icon: const Icon(Icons.add),
-              ),
-              IconButton(
-                onPressed: () {},
-                icon: const Icon(Icons.add),
-              ),
-              TextButton(
-                onPressed: () {},
-                child: const Text("Text Button"),
-              ),
-              TextButton.icon(
-                onPressed: () {},
-                icon: const Icon(Icons.add),
-                label: const Text('Text button has icon'),
-              )
-            ],
-          ),
-        ) // This trailing comma makes auto-formatting nicer for build methods.
-        );
+      ), // This trailing comma makes auto-formatting nicer for build methods.
+    );
   }
 }
